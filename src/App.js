@@ -1,6 +1,7 @@
 import React from "react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route,useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
@@ -65,14 +66,18 @@ import { WebinarsRecords } from "./WebinarsRecords";
 
 function App() {
   const clientId = "585142969269-s4gkicllq3vbjgje3s6esgk6qrm5nldd.apps.googleusercontent.com";
+const location = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);  // Ensures the page scrolls to top when route changes
+  }, [location.pathname]);  // Runs when the route changes
   return (
     <GoogleOAuthProvider clientId={clientId}>
-      <BrowserRouter>
+
         <DataApp>
           <TopHeader />
           <MenuHeader />
-          <Routes>
+          <Routes key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -129,7 +134,7 @@ function App() {
           <NewsLetter />
           <Footer />
         </DataApp>
-      </BrowserRouter>
+
     </GoogleOAuthProvider>
   );
 }
