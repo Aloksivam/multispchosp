@@ -1,0 +1,110 @@
+[
+  {
+    "si_no": 1,
+    "instrument": "All routine haematological and biochemical investigations",
+    "description": "This facility allows for a wide range of tests related to blood cell analysis (haematology) and chemical composition of blood (biochemistry). These tests can help monitor overall health, identify potential diseases, and track treatment progress.",
+    "cost_information": "₹300 - ₹1000"
+  },
+  {
+    "si_no": 2,
+    "instrument": "FNAC (Fine Needle Aspiration Cytology)",
+    "description": "This technique uses a fine needle to collect cells from a suspicious lump or mass. The collected cells are then examined under a microscope to identify any abnormalities, aiding in the diagnosis of various conditions.",
+    "cost_information": "₹1000 - ₹5000"
+  },
+  {
+    "si_no": 3,
+    "instrument": "Histo-pathology and frozen section biopsy facility",
+    "description": "This department studies tissues removed during surgery or biopsies to diagnose diseases. Frozen section biopsies involve rapid analysis of tissue samples during surgery, allowing surgeons to make informed decisions intraoperatively.",
+    "cost_information": "₹5000 - ₹15000"
+  },
+  {
+    "si_no": 4,
+    "instrument": "Blood Banking",
+    "description": "This facility deals with the collection, storage, and processing of blood and blood products for transfusions. It ensures the safe and compatible matching of blood types for patients in need.",
+    "cost_information": "₹750 - ₹2500"
+  },
+  {
+    "si_no": 5,
+    "instrument": "Immuno Histo Chemistry (IHC)",
+    "description": "This technique uses antibodies to identify specific proteins within tissues, aiding in the diagnosis of various diseases, particularly cancers.",
+    "cost_information": "₹1500 - ₹4500"
+  },
+  {
+    "si_no": 6,
+    "instrument": "Tumour Marker and Hormones etc.",
+    "description": "This section focuses on tests that measure specific proteins or hormones in the blood associated with various cancers or other hormonal imbalances.",
+    "cost_information": "₹800 - ₹3500"
+  },
+  {
+    "si_no": 7,
+    "instrument": "Immuno diagnostic system for Tumour Marker, Hormones etc.",
+    "description": "This advanced system utilizes antibodies to detect and measure tumor markers or hormones, likely offering faster and more precise results.",
+    "cost_information": "₹2000 - ₹6000"
+  },
+  {
+    "si_no": 8,
+    "instrument": "Frozen section biopsy facilities",
+    "description": "This facility provides rapid analysis of tissue samples during surgery, allowing surgeons to make informed decisions intraoperatively.",
+    "cost_information": "₹4000 - ₹13000"
+  },
+  {
+    "si_no": 9,
+    "instrument": "Urinalysis",
+    "description": "The analysis of urine samples to help monitor kidney function, determine if a patient has a genitourinary infection, or aid in a comprehensive analysis of patient health.",
+    "cost_information": "₹50 - ₹500"
+  },
+  {
+    "si_no": 10,
+    "instrument": "Clinical Chemistry",
+    "description": "The testing of analytes such as hormones, enzymes, proteins, and lipids found in blood and body fluids in order to indirectly monitor the function of several organ systems, including the liver, kidneys, and thyroid.",
+    "cost_information": "₹700 - ₹2500"
+  },
+  {
+    "si_no": 11,
+    "instrument": "Special Chemistry",
+    "description": "The quantitative analysis of therapeutic drug levels to ensure that safe doses are maintained and the qualitative/quantitative testing for the presence and level of drugs of abuse. Additionally, it studies and applies endocrinology through hormone level testing.",
+    "cost_information": "₹1000 - ₹4000"
+  },
+  {
+    "si_no": 12,
+    "instrument": "Immunoserology",
+    "description": "The detection of antigens and antibodies to infectious diseases as well as autoimmune diseases. It also analyzes patient immune system functions.",
+    "cost_information": "₹700 - ₹3000"
+  },
+  {
+    "si_no": 13,
+    "instrument": "Microbiology",
+    "description": "Looks for the presence of microorganisms in a variety of sample sources (blood, urine, etc.) to determine if a patient has an infection, identify the source of the infection, and determine dosages of antibiotics that are needed to treat the infection.",
+    "cost_information": "₹40 - ₹180"
+  },
+  {
+    "si_no": 14,
+    "instrument": "Parasitology",
+    "description": "The detection and identification of parasites in patient samples, such as stool or blood.",
+    "cost_information": "₹50 - ₹200"
+  },
+  {
+    "si_no": 15,
+    "instrument": "Molecular Diagnostics (Molecular Infection Disease)",
+    "description": "This sub-section analyzes DNA and RNA to determine if a patient has an infection.",
+    "cost_information": "₹200 - ₹800"
+  },
+  {
+    "si_no": 16,
+    "instrument": "Molecular Diagnostics (Identification of Mutated Molecular Markers)",
+    "description": "This sub-section identifies mutated molecular markers to determine a patient's risk for and prognosis of disorders.",
+    "cost_information": "₹300 - ₹1200"
+  },
+  {
+    "si_no": 17,
+    "instrument": "Molecular Diagnostics (Cytogenetics)",
+    "description": "This sub-section uses chromosomal analysis to identify potential genetic abnormalities.",
+    "cost_information": "₹250 - ₹1000"
+  },
+  {
+    "si_no": 18,
+    "instrument": "Hematology",
+    "description": "The analysis of blood samples to aid in the diagnosis or monitoring of various conditions.",
+    "cost_information": "₹50 - ₹250"
+  }
+]
