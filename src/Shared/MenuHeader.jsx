@@ -34,11 +34,12 @@ export const MenuHeader = () => {
                 <div className="mainmenu  d-xl-block d-lg-block d-md-block d-sm-none d-none">
                   <ul className="main_nav_ul">
                     <li className="has-mega gc_main_navigation">
-                      <Link to={"/"} className="gc_main_navigation hover_color"
+                      {/* <Link to={"/home"} className="gc_main_navigation hover_color"
                       
                       >
                         Home
-                      </Link>
+                      </Link> */}
+                      <a href="#" class="gc_main_navigation hover_color">Home</a>
                     </li>
                     <li className="has-mega gc_main_navigation">
                       <Link
