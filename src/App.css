@@ -1,0 +1,1042 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Activities page CSS */
+.activitiesBody {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.intro h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin-top: 20px
+}
+
+.activities-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.activities-page section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activities-page h1,
+.activities-page h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+.intro,
+.upcoming-events,
+.health-programs,
+.workshops,
+.special-campaigns,
+.gallery,
+.news {
+  padding: 40px;
+}
+
+.activities-page img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: block;
+}
+
+.intro img {
+  max-width: 100%;
+}
+
+.activities-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.activities-page li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.gallery-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.gallery-item p {
+  text-align: center;
+  margin-top: 5px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    flex: 1 1 100%;
+  }
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.upcoming-events h2,
+.workshops h2,
+.special-campaigns h2,
+.gallery h2,
+.news h2 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #59C9A7;
+  text-align: center;
+}
+
+.upcoming-events ul,
+.workshops ul,
+.special-campaigns ul,
+.news ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upcoming-events li,
+.workshops li,
+.special-campaigns li,
+.news li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upcoming-events img,
+.workshops img,
+.special-campaigns img,
+.news img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.event-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.event-img {
+  width: 150px;
+  /* Adjust the width as needed */
+  height: auto;
+  margin-left: 20px;
+}
+
+.title {
+  color: #131415;
+  font: 2em sans-serif;
+}
+
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.igallery {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  width: 40%;
+  margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #59C9A7 !important;
+}
+
+/* ======= */
+
+
+
+/* Dischargeinfo css start */
+
+.admission-heading {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+.picture {
+  width: 100%;
+  height: 30%;
+  border: 4px solid gray;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.admission {
+  width: 100%;
+  height: 20%;
+  border: 4px solid gray;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.discharge {
+  width: 100%;
+  height: 30%;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+p,
+ol {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #000000;
+}
+
+.table tbody+tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 2px solid #000000;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+/* Dischargeinfo css stop */
+
+/* blood centre CSS start */
+.team_wrapper {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.our_Services_3 .lest_blog_wrapper h4 a {
+  color: #ef5b3f;
+}
+
+.our_Services_3 .hs_lest_news_box_wrapper:hover .lest_blog_wrapper {
+  background: #ef5b3f;
+}
+
+.about_us_section_2,
+.about_us_section_2 .abt_txt h3 {
+  color: #ef5b3f;
+  background-color: #f4f4f4;
+}
+
+.about_us_section_2 p,
+.about_us_section_2 {
+  color: #757575;
+}
+
+.about_us_section_2 {
+  padding: 50px 0;
+}
+
+/* blood centre CSS end  */
+
+
+.wltxt {
+  font-size: 16px;
+  color: #000;
+}
+
+
+
+/* Food supply CSS  */
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+.team_wrapper,
+.about_us_section_2 {
+  padding: 50px 0;
+}
+
+.team_heading_wrapper {
+  text-align: center;
+}
+
+.team_heading_wrapper h1 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.team_heading_wrapper img {
+  margin: 20px 0;
+}
+
+.food_image_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.food_image_wrapper img {
+  width: 45%;
+
+  height: auto; 
+  max-height: 300px;
+  object-fit: cover; 
+
+}
+
+.table-responsive {
+  margin-top: 20px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+
+.food-table th,
+.food-table td {
+  text-align: center;
+}
+
+
+.order_btn{
+    margin-top: 50px;
+
+}
+
+.order_btn ul {
+  padding: 0;
+  list-style: none;
+}
+
+.order_btn .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+
+/* Academics css  */
+
+h1{
+  text-align: center !important;
+}
+
+.academics {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.course-list .card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  transition: transform 0.2s;
+}
+
+.course-list .card:hover {
+  transform: scale(1.05);
+}
+
+.course-list .card-title {
+  font-size: 1.6rem;
+  color: rgb(18, 17, 17);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.course-list .card-text {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 767.98px) {
+  .course-list .card-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* journal.css start */
+
+.journal{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px solid gray ;
+}
+
+.line{
+  color: #000;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+/* journal.css end */
+
+.bg-ambulance-services {
+  background-color: #252525;
+}
+
+.bg-ambu-con {
+  background-color: #757575;
+}
+
+.orange {
+  background-color: #ef5b3f;
+}
+
+.btn.orange {
+  background-color: #ef5b3f;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn.orange:hover {
+  background-color: white;
+  
+  color: black !important;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.orange:hover {
+  background-color: #e65c00;
+  /* Darker shade on hover */
+
+}
+
+
+/* Research main page css */
+
+.med_tittle_cont h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.med_subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: black;
+}
+
+/* About Research Section */
+.about_research_section {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+}
+
+.about_research_section h2 {
+  font-size: 1.9rem;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.about_research_section img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Journal Articles Section */
+.journal_section {
+  background-color: #f1f1f1;
+}
+
+.journal_section h2 {
+  color: black;
+}
+
+.journal_section .card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.journal_section .card:hover {
+  transform: translateY(-10px);
+}
+
+.journal_section .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+}
+
+.journal_section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Call-to-Action Section */
+.cta_section {
+  background-color: #007bff;
+  color: white;
+}
+
+.cta_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta_section .btn-success {
+  font-size: 1.25rem;
+  padding: 10px 30px;
+}
+
+/* Back to Top Button */
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+#return-to-top i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .med_tittle_cont h1 {
+    font-size: 2rem;
+  }
+
+  .med_subtitle {
+    font-size: 1rem;
+  }
+
+  .about_research_section h2 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .cta_section h2 {
+    font-size: 2rem;
+  }
+
+  .cta_section .btn-success {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .med_tittle_cont h1 {
+    font-size: 1.75rem;
+  }
+
+  .med_subtitle {
+    font-size: 0.875rem;
+  }
+
+  .about_research_section h2 {
+    font-size: 1.75rem;
+  }
+
+  .lead {
+    font-size: 0.875rem;
+  }
+
+  .cta_section h2 {
+    font-size: 1.75rem;
+  }
+
+  .cta_section .btn-success {
+    font-size: 0.875rem;
+    padding: 6px 15px;
+  }
+}
+
+
+
+
+.outlinenone{
+  outline: none;
+  background-color: #22a98b;
+  border: 0;
+}
+:hover.outlinenone{
+  text-decoration: burlywood;
+}
+
+/* emergencyward.css start */
+
+.ward{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 2px solid gray ;
+}
+
+.emergency_ward_member_list {
+  margin-top: 40px;
+}
+
+.emergency_ward_member_list h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+/* emergencyward.css end */
+
+/* Career Portal*/
+
+.career-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.career-section h2 {
+  text-align: center;
+}
+.career-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.text {
+  flex: 1;
+  min-width: 200px;
+  text-align: center
+}
+.text p {
+  margin-bottom: 7px; 
+}
+.career-box img {
+  width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 15px;
+    order: 2; 
+}
+@media (max-width: 768px) {
+  .career-box {
+      flex-direction: column;
+      text-align: center;
+  }
+  .career-box img {
+      margin-left: 0;
+      margin-top: 20px;
+      order: 1;
+  }
+  .apply-button {
+    margin: 10px auto; 
+}
+}
+.work-culture {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(126, 125, 125, 0.1);
+  text-align: center;
+  margin: 50px;
+ 
+}
+.apply-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 7px auto 0; 
+  display: block; 
+  transition: background-color 0.3s ease;
+}
+.apply-button:hover {
+  background-color: #0056b3;
+}
+.work-culture h2, h3{
+  color: #000;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+.contact-list li {
+  margin-bottom: 10px;
+}
+.contact-list a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+
+/* policies.css start */
+
+.privacy{
+  width: 70%;
+  height: 20%;
+  border: 4px solid gray;
+  padding: 5px;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* policies.css end */
+
+
+/* GNM theme CSS  */
+.gnm_subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.about_gnm_section {
+  padding: 60px 0;
+}
+
+#nurshing {
+  margin-left: 100px;
+}
+
+.gnm_details_section {
+  padding: 60px 0;
+}
+
+.cta_section {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.cta_section h2 {
+  margin-bottom: 20px;
+  color: black !important;
+}
+
+.cta_section p {
+  margin-bottom: 30px;
+  color: black !important;
+}
+
+/* Media Queries for Mobile Devices */
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .gnm_title_section {
+      padding: 50px 0;
+  }
+
+  .gnm_subtitle {
+      font-size: 16px;
+  }
+
+  .about_gnm_section img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .about_gnm_section {
+      padding: 30px 0;
+  }
+
+  .gnm_details_section {
+      padding: 30px 0;
+  }
+
+  .cta_section {
+      padding: 20px 0;
+  }
+
+  .cta_section h2 {
+      font-size: 24px;
+  }
+
+  .cta_section p {
+      font-size: 16px;
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .gnm_title_section {
+      padding: 60px 0;
+  }
+
+  .gnm_subtitle {
+      font-size: 18px;
+  }
+
+  #nurshing, .image {
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .about_gnm_section {
+      padding: 40px 0;
+  }
+
+  .gnm_details_section {
+      padding: 40px 0;
+  }
+
+  .cta_section {
+      padding: 30px 0;
+  }
+
+  .cta_section h2 {
+      font-size: 28px;
+  }
+
+  .cta_section p {
+      font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+  #nurshing {
+      margin-left: 75px;
+  }
+
+  .cta_section h2 {
+      font-size: 30px;
+  }
+
+  .cta_section p {
+      font-size: 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+  #nurshing {
+      margin-left: 90px;
+  }
+}

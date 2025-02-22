@@ -1,0 +1,39 @@
+/* Radiologylab page CSS start */
+.team_wrapper{
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .our_Services_3 .lest_blog_wrapper h4 a {
+      color:#ef5b3f;
+  }
+  .our_Services_3 .hs_lest_news_box_wrapper:hover .lest_blog_wrapper {
+      background: #ef5b3f;
+  }
+  .about_us_section_2 , .about_us_section_2 .abt_txt h3  {
+    color: #ef5b3f;
+    background-color: #ededed;
+  }
+  .about_us_section_2 p , .about_us_section_2 .radiology-table{
+    color: #757575;
+  }
+  .about_us_section_2 {
+    padding: 50px 0;
+  }
+  .radiology-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  .radiology-table th, .radiology-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  .radiology-table th {
+    background-color: #f6f3f3;
+  }
+  .radiology-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  /* Radiologylab page CSS end  */

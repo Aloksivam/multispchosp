@@ -1,0 +1,91 @@
+.alumni-cell {
+    padding: 20px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.alumni-cell h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #171414;
+}
+
+.alumni-cell p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #0e0909;
+    font-weight: bolder;
+}
+
+.alumni-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.alumni-item {
+    text-align: center;
+    width: 320px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.alumni-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color:#ef5b3f; /* LinkedIn blue */
+    cursor:pointer;
+}
+
+.alumni-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 4px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.alumni-item:hover .alumni-image {
+    border-color: #0073b1; /* LinkedIn blue */
+}
+
+.alumni-item h2 {
+    font-size: 1.2rem;
+    color: #0073b1;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* visibility: hidden; */
+    transition: visibility 0.3s ease-in-out;
+}
+
+.alumni-item:hover h2 {
+    visibility: visible;
+}
+
+.alumni-item p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.linkedin-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.linkedin-link:hover {
+    color: #005582;
+}
